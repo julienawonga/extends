@@ -57,7 +57,7 @@ class VideoStream:
 
 
 MODEL_NAME = "modeldir"
-GRAPH_NAME = "detect.tflite"
+GRAPH_NAME = "detect_quant.tflite"
 LABELMAP_NAME = "pot_labels_map.txt"
 min_conf_threshold = float(0.9)
 resW, resH = 1280, 720
