@@ -150,6 +150,10 @@ while True:
 
     # Loop over all detections and draw detection box if confidence is above minimum threshold
     for i in range(len(scores)):
+        # draw corrdinate
+        cv2.line(frame, (resW//2, 0), (resW//2, 720), (0, 0, 255), 2)
+        cv2.line(frame, (0, resH//2), (1280, resH//2), (0, 0, 255), 2)
+
         if ((scores[i] > min_conf_threshold) and (scores[i] <= 1.0)):
 
             # Get bounding box coordinates and draw box
