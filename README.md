@@ -1,5 +1,13 @@
 # Custom Aeroponics basket detection/recognition with tensorflow object detection API for Raspberry Pi 4
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Dataset](#dataset)
+- [Model](#model)
+- [Deployment](#deployment)
+- [Results](#results)
+- [Conclusion](#conclusion)
+
 ## Introduction
 This project is a custom object detection/recognition model for aeroponics basket detection. The model is trained using tensorflow object detection API and the dataset is collected using a Raspberry Pi 4 with a Pi camera module. The model is then deployed on the Raspberry Pi 4 to perform real-time object detection/recognition.
 
