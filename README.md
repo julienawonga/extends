@@ -71,3 +71,9 @@ The model is able to detect/recognize the aeroponics basket with an accuracy of 
 
 ## Acknowledgements
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+- [**Julien AWONGA**](https://linkedin.com/in/julienawonga)
+
